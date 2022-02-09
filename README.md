@@ -29,7 +29,7 @@ The WSS API returns the expected objects.
 
 But after about 10 seconds, the websocket is closed unexpectedly:
 
-```
+```{txt}
 File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/streams.py", line 721, in readexactly
     raise exceptions.IncompleteReadError(incomplete, n)
 asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
@@ -37,6 +37,15 @@ asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected by
 
 ## Install dependencies
 
-```
+```{bash}
 make requirements
 ```
+
+<!--
+git clone \
+  -c core.sshCommand="/usr/bin/ssh -o IdentitiesOnly=yes -i ~/.ssh/0xidm" \
+  git@github.com:0xidm/0xidm.git
+
+git config --local user.email "0xidm"
+git config --local user.name "0xidm"
+-->
