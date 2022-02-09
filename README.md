@@ -1,8 +1,8 @@
-# thegraph-graplml-wss-gql
+# thegraph-graplql-wss-gql
 
-Proof of concept demonstrating the trouble I'm having with **TheGraph graphml subscription websocket streaming via Python gql**
+Proof of concept demonstrating the trouble I'm having with **TheGraph graphql subscription websocket streaming via Python gql**
 
-This example creates a GraphML subscription for swaps on Uniswap.
+This example creates a GraphQL subscription for swaps on Uniswap.
 
 ## Usage
 
