@@ -1,4 +1,4 @@
-# thegraph-graplql-wss-gql
+# thegraph-graphql-wss-gql
 
 Proof of concept demonstrating the trouble I'm having with **TheGraph graphql subscription websocket streaming via Python gql**
 
